@@ -75,7 +75,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="r47-Dr-U34">
                     <connections>
-                        <action selector="didPanKart:" destination="BYZ-38-t0r" id="Vd2-Af-72x"/>
+                        <action selector="pantest:" destination="BYZ-38-t0r" id="m0d-nK-NY0"/>
                         <outlet property="delegate" destination="BYZ-38-t0r" id="bp8-nF-W5U"/>
                     </connections>
                 </panGestureRecognizer>
@@ -142,6 +142,7 @@
                         <action selector="didLongPressBackground:" destination="BYZ-38-t0r" id="RxL-ko-Rwj"/>
                     </connections>
                 </pongPressGestureRecognizer>
+                <tapGestureRecognizer id="f3Z-Qt-o4z"/>
             </objects>
             <point key="canvasLocation" x="52" y="25.862068965517242"/>
         </scene>
